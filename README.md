@@ -60,8 +60,6 @@ Esta aplicação fornece um endpoint de API RESTful para adicionar marcas d'águ
 
 - A aplicação assume que a imagem codificada em base64 fornecida está no formato PNG. Você pode ajustar o formato da imagem conforme necessário no método `ImageIO.write`.
 
-- Certifique-se de lidar com exceções de forma adequada, especialmente exceções de E/S que podem ocorrer durante o processamento de imagens.
-
 - Esta aplicação não inclui mecanismos de autenticação ou autorização. Garanta que medidas de segurança adequadas sejam implementadas antes de implantá-la em um ambiente de produção.
 
 ## Executando a Aplicação
